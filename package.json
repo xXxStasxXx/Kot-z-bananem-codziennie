@@ -1,6 +1,9 @@
 {
   "name": "kot-z-bananem-codziennie",
   "version": "0.0.1",
+  "engines": {
+    "node": "8.1.3"
+  },
   "description": "Kot z bananem. Codziennie!",
   "main": "index.js",
   "scripts": {
