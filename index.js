@@ -5,7 +5,7 @@ var prefix = "!"
 const Webhook = require("webhook-discord")
 const Hook = new Webhook("https://discordapp.com/api/webhooks/361489232839180289/-QSixPYwlPk9b5vT4J3lHfzub3D0CSKRwYJQ2BMjqe3MhzMXCXdMEPl4F_UNgvKf2K3w")
 
-var cronJob = require('node-cron').CronJob;
+var cronJob = require('cron').CronJob;
 
 var job = new cronJob({
   cronTime: '00 00 12 * * *',

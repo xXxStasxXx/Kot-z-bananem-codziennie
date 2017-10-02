@@ -13,7 +13,7 @@
   "author": "Stanisław Czajka",
   "license": "ISC",
   "dependencies": {
-    "node-cron": "node-cron",
+    "node-cron": "cron",
     "discord.js": "discord.js",
     "webhook-discord": "webhook-discord"
   }
