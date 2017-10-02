@@ -1,0 +1,17 @@
+{
+  "name": "kot-z-bananem-codziennie",
+  "version": "0.0.1",
+  "description": "Kot z bananem. Codziennie!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Stanisław Czajka",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "file:cron",
+    "discord.js": "file:discord.js",
+    "webhook-discord": "file:webhook-discord"
+  }
+}
